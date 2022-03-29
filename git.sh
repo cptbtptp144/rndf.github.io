@@ -16,9 +16,10 @@ echo -e "
 
 echo -e "
 time= $(date "+%Y-%m-%d %H:%M")
+echo $time
 ▶ \033[33;1mgit commit -m  'auto push at $time'
 \033[0m"
-git commit -m "auto push at $time"
+git commit -m "auto push at '$time'"
 
 
 
