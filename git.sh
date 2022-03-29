@@ -25,12 +25,12 @@ git commit -m "auto push at '$time'"
 echo -e "
 ▶ \033[33;1mgit push
 "
-git pull rndf main
+git pull rndf master
 
 echo -e "\033[37;1master pushing ...\033[0m
 "
 
-git push
+git push rndf main
 echo -e "
 \033[37;1mAll Done\033[0m"
 read aa
