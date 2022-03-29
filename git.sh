@@ -22,12 +22,11 @@ echo $time
 git commit -m "auto push at '$time'"
 
 
-
-
-
 echo -e "
 ▶ \033[33;1mgit push
 "
+git pull rndf main
+
 echo -e "\033[37;1master pushing ...\033[0m
 "
 
