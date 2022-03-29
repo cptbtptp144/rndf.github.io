@@ -28,7 +28,7 @@ git commit -m "auto push at '$time'"
 echo -e "
 ▶ \033[33;1mgit push
 "
-echo -e "\033[37;1main pushing ...\033[0m
+echo -e "\033[37;1master pushing ...\033[0m
 "
 
 git push
