@@ -21,15 +21,7 @@ time= $(date "+%Y-%m-%d %H:%M:%S")
 git commit -m "auto push at $time"
 
 
-echo -e "
-▶ \033[33;1mgit pull
-"
-echo -e "\033[37;1main pull ...\033[0m
-"
 
-git push
-echo -e "
-\033[37;1mAll Done\033[0m"
 
 
 echo -e "
