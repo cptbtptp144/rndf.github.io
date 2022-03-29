@@ -34,3 +34,4 @@ echo -e "\033[37;1main pushing ...\033[0m
 git push
 echo -e "
 \033[37;1mAll Done\033[0m"
+read aa
